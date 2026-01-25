@@ -65,7 +65,7 @@ def welcome_assignment_answers(question):
     else:
         # Error handling for invalid/mistyped questions
         # This catches typos or questions not in the expected format
-        answer = "Error or typo"
+        answer = "This is not my beautiful wife! This is not my beautiful car! How did I get here?"
     
     return answer
 
@@ -115,4 +115,5 @@ if __name__ == "__main__":
         hash_value = generate_sha256_hash(your_email)
 
         print(f"\nYour SHA256 hash: {hash_value}")
+
 
