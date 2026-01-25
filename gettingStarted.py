@@ -60,7 +60,7 @@ def welcome_assignment_answers(question):
     # Question 9: ICMP layer
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         # ICMP (Internet Control Message Protocol) operates at the Internet layer
-        answer = "2"
+        answer = "3"
     
     else:
         # Error handling for invalid/mistyped questions
@@ -115,6 +115,7 @@ if __name__ == "__main__":
         hash_value = generate_sha256_hash(your_email)
 
         print(f"\nYour SHA256 hash: {hash_value}")
+
 
 
 
