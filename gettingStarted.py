@@ -55,12 +55,12 @@ def welcome_assignment_answers(question):
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
         # TCP/IP Model layers: 1=Link, 2=Internet, 3=Transport, 4=Application
         # DNS operates at the Application layer
-        answer = "4"
+        answer = int(4)
     
     # Question 9: ICMP layer
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         # ICMP (Internet Control Message Protocol) operates at the Internet layer
-        answer = "3"
+        answer = int(2)
     
     else:
         # Error handling for invalid/mistyped questions
@@ -113,4 +113,5 @@ if __name__ == "__main__":
     your_email = input("Enter your NYU email (or press Enter to skip): ")
     if your_email:
         hash_value = generate_sha256_hash(your_email)
+
         print(f"\nYour SHA256 hash: {hash_value}")
